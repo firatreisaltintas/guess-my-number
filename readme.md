@@ -21,4 +21,4 @@ A simple number guessing game built with vanilla JavaScript, HTML, and CSS.
 ## Author
 - https://github.com/firatreisaltintas
 ## Demo
-https://aova0.github.io/guess-my-number/
+- https://firatreisaltintas.github.io/guess-my-number/
