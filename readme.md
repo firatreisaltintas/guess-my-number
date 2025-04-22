@@ -19,6 +19,6 @@ A simple number guessing game built with vanilla JavaScript, HTML, and CSS.
 - JavaScript (ES6+)
 
 ## Author
-- [https://github.com/aova0]
+- https://github.com/aova0
 ## Demo
-(After deployment, you can put GitHub Pages link here!)
+https://aova0.github.io/guess-my-number/
