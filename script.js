@@ -30,12 +30,11 @@ const setNumberWidth = width => {
 document.querySelector('.check').addEventListener('click', function () {
   if (isGameOver) return;
 
-  const guess = Number(document.querySelector('.guess').value);
+  const guessInput = document.querySelector('.guess').value;
+  const guess = Number(guessInput);
 
-  if (guess === 0) {
-  setMessage('🚫 Number must be between 1 and 20!');
-} else if (!guess) {
-  setMessage('⛔ No Number!');
+  if (!guessInput) {
+    setMessage('⛔ No Number!');
   } else if (guess < 1 || guess > 20) {
     setMessage('🚫 Number must be between 1 and 20!');
   } else if (guess === secretNumber) {
